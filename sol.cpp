@@ -38,7 +38,7 @@ int main() {
 		cin >> s;
 		string tmp = "";
 		// take every four characters of the string and convert it from binary to decimal
-		// after conversion, add the its corresponding character equivalent from the alphabet
+		// after conversion, add its corresponding character equivalent from the alphabet
 		for (int i = 0; i < n; i += 4) {
 			tmp += Extract(s.substr(i, 4));
 		}
